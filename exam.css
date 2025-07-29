@@ -1,0 +1,31 @@
+.root {
+    -fx-font-family: "Arial";
+    -fx-padding: 20;
+    -fx-spacing: 10;
+    -fx-background-color: #f4f4f4;
+}
+
+.label {
+    -fx-font-size: 16px;
+    -fx-text-fill: #333;
+}
+
+.button {
+    -fx-font-size: 14px;
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-padding: 8px 16px;
+    -fx-border-radius: 4;
+    -fx-background-radius: 4;
+}
+
+.button:hover {
+    -fx-background-color: #45a049;
+}
+
+.text-field, .password-field {
+    -fx-font-size: 14px;
+    -fx-padding: 6px;
+    -fx-border-color: #ccc;
+    -fx-border-radius: 4;
+}
